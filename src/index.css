@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-navy: #142B4A;
+    --brand-green: #38B879;
+    --brand-offwhite: #F7F8F5;
+    --brand-softblue: #DDEAF4;
+    --brand-warmyellow: #FCC85B;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #F7F8F5;
+    color: #142B4A;
+  }
+}
+
+.font-handwritten {
+  font-family: 'Caveat', cursive;
+}
+
+.shadow-navy-soft {
+  box-shadow: 0 4px 20px -2px rgba(20, 43, 74, 0.08), 0 2px 6px -1px rgba(20, 43, 74, 0.04);
+}
+
+.shadow-navy-hover {
+  box-shadow: 0 10px 25px -3px rgba(20, 43, 74, 0.12), 0 4px 10px -2px rgba(20, 43, 74, 0.06);
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "InternMatch",
+  "description": "Decision-support tool helping university students discover internships that fit them, analyze skill gaps, and prepare tailored applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
